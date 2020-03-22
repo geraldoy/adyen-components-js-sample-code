@@ -1,22 +1,22 @@
 const paymentMethodsConfig = {
     shopperReference: 'Checkout Components sample code test',
     reference: 'Checkout Components sample code test',
-    countryCode: 'NL',
+    countryCode: 'BR',
     amount: {
         value: 1000,
-        currency: 'EUR'
+        currency: 'BRL'
     }
 };
 
 const paymentsDefaultConfig = {
     shopperReference: 'Checkout Components sample code test',
     reference: 'Checkout Components sample code test',
-    countryCode: 'NL',
+    countryCode: 'BR',
     channel: 'Web',
-    returnUrl: 'https://your-company.com/',
+    returnUrl: 'https://adyen1.herokuapp.com/',
     amount: {
         value: 1000,
-        currency: 'EUR'
+        currency: 'BRL'
     },
     lineItems: [
         {
